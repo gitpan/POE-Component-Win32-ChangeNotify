@@ -3,12 +3,14 @@ abstract: "A POE wrapper around Win32::ChangeNotify.\r"
 author:
   - 'Chris Williams <chris@bingosnet.co.uk>'
 build_requires:
-  ExtUtils::MakeMaker: 6.42
-  Test::More: 0.47
+  File::Spec: 0
+  IO::Handle: 0
+  IPC::Open3: 0
+  Test::More: 0
 configure_requires:
-  ExtUtils::MakeMaker: 6.42
-distribution_type: module
-generated_by: 'Module::Install version 0.91'
+  ExtUtils::MakeMaker: 6.30
+dynamic_config: 0
+generated_by: 'Dist::Zilla version 4.300039, CPAN::Meta::Converter version 2.132830'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -16,23 +18,15 @@ meta-spec:
 name: POE-Component-Win32-ChangeNotify
 no_index:
   directory:
-    - examples
     - inc
-    - t
-    - xt
-provides:
-  POE::Component::Win32::ChangeNotify:
-    file: lib/POE/Component/Win32/ChangeNotify.pm
-    version: 1.20
 requires:
   POE: 0.38
   POE::Filter::Line: 0
   POE::Filter::Reference: 0
   POE::Wheel::Run: 0
   Win32::ChangeNotify: 0
-  perl: 5.6.0
+  perl: 5.006
 resources:
-  homepage: http://github.com/bingos/poe-component-win32-changenotify/tree
-  license: http://dev.perl.org/licenses/
-  repository: git://github.com/bingos/poe-component-win32-changenotify.git
-version: 1.20
+  homepage: https://github.com/bingos/poe-component-win32-changenotify
+  repository: https://github.com/bingos/poe-component-win32-changenotify.git
+version: 1.22

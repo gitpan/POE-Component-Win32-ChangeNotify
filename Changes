@@ -1,48 +1,211 @@
-POE::Component::Win32::ChangeNotify
-===================================
+==================================================
+Changes from 2008-11-01 00:00:00 +0000 to present.
+==================================================
 
-1.20	Tue Jun  2 14:17:28 BST 2009
-	- Update Makefile.PL meta and add additional 
-          diagnostics when Win32::ChangeNotify errors.
+-----------------------------------------
+version 1.22 at 2013-10-31 23:27:53 +0000
+-----------------------------------------
 
-1.18	Fri Apr 24 11:35:35 BST 2009
-	- Switch to git repository
-	- Tidy up POD
+  Change: 392c7ba9d61de9e5ceaf62064d1998725015d175
+  Author: Chris 'BinGOs' Williams <chris@bingosnet.co.uk>
+  Date : 2013-10-31 23:27:53 +0000
 
-1.16	Tue May 13 14:07:50 GMTDT 2008
-	- Added license information
+    Update to Dist::Zilla distribution 
 
-1.14	Fri Mar 14 11:22:18 GMTST 2008
-	- Author tests to xt/
+-----------------------------------------
+version 1.20 at 2009-06-02 13:18:11 +0000
+-----------------------------------------
 
-1.12	Wed Feb 20 19:16:23 GMT 2008
-	- Oops forgot to no_index 'mylib'.
+  Change: a6b54d5ba576ccfb6a0b02c59863df0cbfeba0d8
+  Author: Chris Williams <chris@bingosnet.co.uk>
+  Date : 2009-06-02 14:18:11 +0000
 
-1.10	Wed Feb 20 17:06:39 GMT 2008
-	- Moved Devel::AssertOS to mylib/ to avoid
-	  Module::Install trampling on it.
+    Update Changes 
 
-1.08	Tue Feb 19 14:11:50 GMT 2008
-	- Added Devel::AssertOS checks to Makefile.PL
+  Change: 4c138db49950b5dbb74e0db76f3d54e8db7e8eeb
+  Author: Chris Williams <chris@bingosnet.co.uk>
+  Date : 2009-06-02 14:10:57 +0000
 
-1.07	Mon Jan  7 10:15:51 GMT 2008
-	- Tidied up test names
+    Update the error testcase slightly 
 
-1.06	Wed Oct 31 13:37:49 GMT 2007
-	- Updated Module::Install to 0.68
+  Change: 3fb2b44be50d16c0ad93c02b97534502a13422cc
+  Author: Chris Williams <chris@bingosnet.co.uk>
+  Date : 2009-06-02 13:11:45 +0000
 
-1.05	Tue Aug 21 12:10:59 BST 2007
-	- Fixes for build_requires and abstract_from in Makefile.PL
+    Added an error testcase 
 
-1.04	Sat Dec 30 09:01:58 GMT 2006
-	- Makefile.PL is now all M::I.
-	- Changed to sig_child() semantics.
+  Change: 45edc339e419aa53ca5e0224c073836fcf848174
+  Author: Chris Williams <chris@bingosnet.co.uk>
+  Date : 2009-06-02 10:48:26 +0000
 
-1.03	Tue Sep 26 16:52:05 BST 2006
-	- Switched to Module::Install
+    Update Makefile.PL meta and add additional diagnostics when
+    Win32::ChangeNotify errors. 
 
-1.02	Tue Sep 12 18:45:02 BST 2006
-	- Added Changes file.
-	- Added pod and pod coverage tests.
-	- Added examples/ folder.
-	- Fixed use strict.
+-----------------------------------------
+version 1.18 at 2009-04-24 10:47:18 +0000
+-----------------------------------------
+
+  Change: 60fe6f86f6cc59fc39c747abf1af097f8fcfa539
+  Author: Chris Williams <chris@bingosnet.co.uk>
+  Date : 2009-04-24 11:47:18 +0000
+
+    Switched to git repository. Tidied up the POD 
+
+  Change: c97a985a0c60dfecde65370bdf24e717cb950434
+  Author: Chris Williams <chris@bingosnet.co.uk>
+  Date : 2009-04-23 13:07:26 +0000
+
+    Tidied up the distribution. Added M::I::AssertOS support. Set
+    repository in META.yml 
+
+  Change: b81bb9f19251626ca738226a702b6c62abed7925
+  Author: Chris Williams <chris@bingosnet.co.uk>
+  Date : 2009-04-22 23:41:41 +0000
+
+    Removed the lower-case readme file 
+
+-----------------------------------------
+version 1.16 at 2009-04-22 22:40:21 +0000
+-----------------------------------------
+
+  Change: 4f2e4cf2a3f00762065ed8001c4c1ccf8c58401d
+  Author: Chris Williams <chris@bingosnet.co.uk>
+  Date : 2009-04-22 23:40:21 +0000
+
+    Added license information 
+
+-----------------------------------------
+version 1.14 at 2009-04-22 22:38:46 +0000
+-----------------------------------------
+
+  Change: c57fd4394813ce65d52fd4b99341ce3a79f3ff68
+  Author: Chris Williams <chris@bingosnet.co.uk>
+  Date : 2009-04-22 23:38:46 +0000
+
+    Author tests to xt/ 
+
+-----------------------------------------
+version 1.12 at 2009-04-22 22:36:07 +0000
+-----------------------------------------
+
+  Change: 50b65197db90bc658eabb9226ff88f1654045a0d
+  Author: Chris Williams <chris@bingosnet.co.uk>
+  Date : 2009-04-22 23:36:07 +0000
+
+    Oops forgot to no_index 'mylib'. 
+
+-----------------------------------------
+version 1.10 at 2009-04-22 22:31:48 +0000
+-----------------------------------------
+
+  Change: 04e9a5064bd72ed254aae4450555b4fa776c7cf5
+  Author: Chris Williams <chris@bingosnet.co.uk>
+  Date : 2009-04-22 23:31:48 +0000
+
+    Moved Devel::AssertOS to mylib/ to avoid Module::Install trampling on
+    it. 
+
+-----------------------------------------
+version 1.08 at 2009-04-22 22:29:26 +0000
+-----------------------------------------
+
+  Change: 75d9e098261ffe5e3a88536e91e65548641c3b14
+  Author: Chris Williams <chris@bingosnet.co.uk>
+  Date : 2009-04-22 23:29:26 +0000
+
+    Added Devel::AssertOS checks to Makefile.PL 
+
+-----------------------------------------
+version 1.07 at 2009-04-22 22:27:48 +0000
+-----------------------------------------
+
+  Change: 6b683914abc677e03bce83181e8712aea4e8f206
+  Author: Chris Williams <chris@bingosnet.co.uk>
+  Date : 2009-04-22 23:27:48 +0000
+
+    Tidied up test names 
+
+-----------------------------------------
+version 1.06 at 2009-04-22 22:26:09 +0000
+-----------------------------------------
+
+  Change: 41da79178ebce17369df6794d1eb7dba8d6777b5
+  Author: Chris Williams <chris@bingosnet.co.uk>
+  Date : 2009-04-22 23:26:09 +0000
+
+    Updated Module::Install to 0.68 
+
+-----------------------------------------
+version 1.05 at 2009-04-22 22:24:52 +0000
+-----------------------------------------
+
+  Change: 37c1eee6ea627a9e3539ff19e06454d387d6a560
+  Author: Chris Williams <chris@bingosnet.co.uk>
+  Date : 2009-04-22 23:24:52 +0000
+
+    Fixes for build_requires and abstract_from in Makefile.PL 
+
+-----------------------------------------
+version 1.04 at 2009-04-22 22:23:13 +0000
+-----------------------------------------
+
+  Change: 27fca11aa06da27367e6e9b97ab5bc06cc25509b
+  Author: Chris Williams <chris@bingosnet.co.uk>
+  Date : 2009-04-22 23:23:13 +0000
+
+    Makefile.PL is now all M::I. Changed to sig_child() semantics. 
+
+-----------------------------------------
+version 1.03 at 2009-04-22 22:20:59 +0000
+-----------------------------------------
+
+  Change: 53f6269410b2a85e248f648f3cf93544e57a3fb6
+  Author: Chris Williams <chris@bingosnet.co.uk>
+  Date : 2009-04-22 23:20:59 +0000
+
+    Switched to Module::Install 
+
+-----------------------------------------
+version 1.02 at 2009-04-22 22:19:23 +0000
+-----------------------------------------
+
+  Change: e575853e78d5140c4ef8b26f303a90bdf9a71d33
+  Author: Chris Williams <chris@bingosnet.co.uk>
+  Date : 2009-04-22 23:19:23 +0000
+
+    - Added Changes file. - Added pod and pod coverage tests. - Added
+    examples/ folder. - Fixed use strict. 
+
+-----------------------------------------
+version 1.01 at 2009-04-22 22:18:07 +0000
+-----------------------------------------
+
+  Change: e3339bc8200cb4b4530402ceeb3ae580a57e33d7
+  Author: Chris Williams <chris@bingosnet.co.uk>
+  Date : 2009-04-22 23:18:07 +0000
+
+    Import 1.01 
+
+-----------------------------------------
+version 1.00 at 2009-04-22 22:14:48 +0000
+-----------------------------------------
+
+  Change: 080890229b8a7cf36b15fd4feab0482bdaf91bb7
+  Author: Chris Williams <chris@bingosnet.co.uk>
+  Date : 2009-04-22 23:14:48 +0000
+
+    Imported 1.00 
+
+-----------------------------------------
+version 0.01 at 2009-04-22 22:12:16 +0000
+-----------------------------------------
+
+  Change: d8f663ae5e82837e0c3eeb0b954273dd539e1ce5
+  Author: Chris Williams <chris@bingosnet.co.uk>
+  Date : 2009-04-22 23:12:16 +0000
+
+    Initial import from 0.01 
+
+================
+End of releases.
+================
